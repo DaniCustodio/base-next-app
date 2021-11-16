@@ -13,7 +13,6 @@
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:jsx-a11y/recommended",
-    "next",
     "next/core-web-vitals"
   ],
   "parser": "@typescript-eslint/parser",
@@ -29,6 +28,8 @@
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
     "import/extensions": "off",
     "import/no-unresolved": "error",
     "import/order": [
